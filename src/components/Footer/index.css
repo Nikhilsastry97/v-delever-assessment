@@ -7,6 +7,10 @@
   background-size: cover;
   border-radius: 12px;
   width: 100%;
+  background-color: #f0f1f2;
+  width: 20vw;
+  margin-left: 25vw;
+  margin-top: 15px;
 }
 
 .footer-icon {
