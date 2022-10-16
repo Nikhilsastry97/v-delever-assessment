@@ -1,0 +1,15 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  background-size: cover;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.footer-icon {
+  margin: 10px;
+  color: #000000;
+}

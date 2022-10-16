@@ -1,0 +1,188 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100vh;
+  width: 75vw;
+  background-size: cover;
+  margin: 25px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+  padding-right: 550px;
+  margin-left: 15px;
+}
+
+.notification-icon {
+  align-items: center;
+  background-color: #f0f1f2;
+  border-radius: 15px;
+  padding: 8px;
+  margin: 18px;
+}
+
+.reports-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffcccb;
+  width: 400px;
+  border-radius: 12px;
+  margin-left: 12px;
+}
+
+.reports {
+  color: #ff0000;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  padding-left: 85px;
+}
+
+.reports-icon {
+  color: #ff0000;
+  align-items: center;
+  margin: 12px;
+  margin-left: 75px;
+}
+
+.search-element {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-element-container {
+  background-color: #f0f1f2;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border: 1px;
+  width: 25vw;
+  height: 45px;
+  border-radius: 12px;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  margin-right: 150px;
+}
+
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.service-card {
+  background-color: #f0f1f2;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  width: 15vw;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.service-heading {
+  color: #000000;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.services-icon {
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+.appointments-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.appointments-card {
+  height: 25vh;
+  width: 25vw;
+  border-radius: 15px;
+  background-color: #ede8e8;
+  margin: 10px;
+}
+
+.doctor-image {
+  height: 25vh;
+  width: 11vw;
+  border-radius: 15px;
+  background-size: cover;
+}
+
+.appointments-sub-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.doctor-name {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.discounts-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.discounts-sub-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.discounts-card {
+  height: 25vh;
+  width: 25vw;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #fc4e03, #fc8c03);
+  margin: 10px;
+}
+
+.discounts-heading {
+  color: #000000;
+  padding-left: 15px;
+  text-align: left;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.discounts {
+  justify-content: flex-end;
+  height: 40px;
+  width: 70px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 12px;
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 18vw;
+  margin-top: 40px;
+}
